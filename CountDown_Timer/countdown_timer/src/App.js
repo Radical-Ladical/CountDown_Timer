@@ -8,27 +8,23 @@ function App() {
         <h1>The Best Timer</h1>
 
         <div class="countdown-container">
-            <div class="days-c">
-              <p clas ="big-text" id="hours">
-                <span>days</span>
-              </p>
+            <div class="countdown-el days-c">
+              <p class ="big-text" id="days">0</p>
+              <span>days</span>
             </div>
 
-            <div class="hours-c">
-              <p clas ="big-text" id="hours">
-                <span>days</span>
-              </p>
+            <div class="countdown-el hours-c">
+              <p class ="big-text" id="hours">0</p>
+              <span>hours</span>
             </div>
 
-            <div class="mins-c">
-              <p clas ="big-text" id="mins">
-                <span>days</span>
-              </p>
+            <div class="countdown-el mins-c">
+              <p class ="big-text" id="mins">0</p>
+              <span>mins</span>
             </div>
-            <div class="seconds-c">
-              <p clas ="big-text" id="seconds">
-                <span>days</span>
-              </p>
+            <div class="countdown-el seconds-c">
+              <p class ="big-text" id="seconds">0</p>
+              <span>seconds</span>
             </div>
         </div>
       </body>
